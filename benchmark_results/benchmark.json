@@ -1,0 +1,141 @@
+{
+  "n_images": 10,
+  "details": {
+    "opencv": [
+      {
+        "file": "sudoku_040.png",
+        "time_ms": 225.2,
+        "digits_found": 38,
+        "avg_conf": 0.87
+      },
+      {
+        "file": "sudoku_029.png",
+        "time_ms": 202.2,
+        "digits_found": 38,
+        "avg_conf": 0.86
+      },
+      {
+        "file": "sudoku_004.png",
+        "time_ms": 196.9,
+        "digits_found": 38,
+        "avg_conf": 0.86
+      },
+      {
+        "file": "sudoku_050.png",
+        "time_ms": 201.5,
+        "digits_found": 38,
+        "avg_conf": 0.86
+      },
+      {
+        "file": "sudoku_018.png",
+        "time_ms": 200.4,
+        "digits_found": 38,
+        "avg_conf": 0.89
+      },
+      {
+        "file": "sudoku_048.png",
+        "time_ms": 200.5,
+        "digits_found": 38,
+        "avg_conf": 0.86
+      },
+      {
+        "file": "sudoku_035.png",
+        "time_ms": 199.2,
+        "digits_found": 38,
+        "avg_conf": 0.86
+      },
+      {
+        "file": "sudoku_062.png",
+        "time_ms": 199.9,
+        "digits_found": 38,
+        "avg_conf": 0.86
+      },
+      {
+        "file": "sudoku_067.png",
+        "time_ms": 190.4,
+        "digits_found": 38,
+        "avg_conf": 0.86
+      },
+      {
+        "file": "live.png",
+        "time_ms": 131.4,
+        "digits_found": 23,
+        "avg_conf": 0.87
+      }
+    ],
+    "tesseract": [
+      {
+        "file": "sudoku_040.png",
+        "time_ms": 10022.0,
+        "digits_found": 34,
+        "avg_conf": 0.89
+      },
+      {
+        "file": "sudoku_029.png",
+        "time_ms": 8076.0,
+        "digits_found": 28,
+        "avg_conf": 0.97
+      },
+      {
+        "file": "sudoku_004.png",
+        "time_ms": 7995.0,
+        "digits_found": 29,
+        "avg_conf": 0.94
+      },
+      {
+        "file": "sudoku_050.png",
+        "time_ms": 8318.4,
+        "digits_found": 30,
+        "avg_conf": 0.95
+      },
+      {
+        "file": "sudoku_018.png",
+        "time_ms": 7870.1,
+        "digits_found": 30,
+        "avg_conf": 0.95
+      },
+      {
+        "file": "sudoku_048.png",
+        "time_ms": 7160.3,
+        "digits_found": 29,
+        "avg_conf": 0.94
+      },
+      {
+        "file": "sudoku_035.png",
+        "time_ms": 7286.7,
+        "digits_found": 30,
+        "avg_conf": 0.95
+      },
+      {
+        "file": "sudoku_062.png",
+        "time_ms": 7084.0,
+        "digits_found": 28,
+        "avg_conf": 0.97
+      },
+      {
+        "file": "sudoku_067.png",
+        "time_ms": 7917.3,
+        "digits_found": 30,
+        "avg_conf": 0.97
+      },
+      {
+        "file": "live.png",
+        "time_ms": 7646.9,
+        "digits_found": 20,
+        "avg_conf": 0.89
+      }
+    ]
+  },
+  "summary": {
+    "opencv": {
+      "avg_time_ms": 194.8,
+      "avg_digits": 36.5,
+      "avg_conf": 0.865
+    },
+    "tesseract": {
+      "avg_time_ms": 7937.7,
+      "avg_digits": 28.8,
+      "avg_conf": 0.942
+    }
+  }
+}

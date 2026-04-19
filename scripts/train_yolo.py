@@ -1,13 +1,15 @@
+# scripts/train_yolo.py
 from ultralytics import YOLO
 
 model = YOLO("yolov8n.pt")
-
-results = model.train(
-    data="data/dataset.yaml",
+model.train(
+    data="data/data.yaml",
     epochs=50,
     imgsz=640,
     batch=16,
     name="sudoku_grid_detector",
-    patience=5,        # stops early if no improvement
-    exist_ok=True
+    project=".",
+    exist_ok=True,
+    patience=10,
 )
+print("Training complete. Weights saved to runs/detect/sudoku_grid_detector/weights/best.pt")

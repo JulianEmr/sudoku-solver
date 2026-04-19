@@ -1,0 +1,25 @@
+(sudoku-solver) PS C:\Users\julia\sudoku-solver> uv run .\scripts\benchmark.py
+[opencv    ] sudoku_001.png → 38/81 digits | 104ms | conf 0.84
+[tesseract ] sudoku_001.png → 30/81 digits | 12415ms | conf 0.97
+[opencv    ] sudoku_002.png → 38/81 digits | 96ms | conf 0.86
+[tesseract ] sudoku_002.png → 32/81 digits | 11937ms | conf 0.92
+[opencv    ] sudoku_003.png → 38/81 digits | 96ms | conf 0.85
+[tesseract ] sudoku_003.png → 30/81 digits | 11860ms | conf 0.94
+[opencv    ] sudoku_004.png → 38/81 digits | 108ms | conf 0.85
+[tesseract ] sudoku_004.png → 29/81 digits | 11751ms | conf 0.94
+[opencv    ] sudoku_005.png → 38/81 digits | 95ms | conf 0.85
+[tesseract ] sudoku_005.png → 28/81 digits | 11919ms | conf 0.97
+[opencv    ] sudoku_006.png → 38/81 digits | 97ms | conf 0.86
+[tesseract ] sudoku_006.png → 32/81 digits | 11437ms | conf 0.92
+[opencv    ] sudoku_007.png → 38/81 digits | 100ms | conf 0.86
+[tesseract ] sudoku_007.png → 30/81 digits | 12070ms | conf 0.92
+[opencv    ] sudoku_008.png → 38/81 digits | 104ms | conf 0.86
+[tesseract ] sudoku_008.png → 32/81 digits | 11243ms | conf 0.92
+[opencv    ] sudoku_009.png → 38/81 digits | 98ms | conf 0.86
+[tesseract ] sudoku_009.png → 32/81 digits | 11362ms | conf 0.92
+[opencv    ] sudoku_010.png → 38/81 digits | 100ms | conf 0.85
+[tesseract ] sudoku_010.png → 30/81 digits | 11445ms | conf 0.94
+
+=== BENCHMARK SUMMARY ===
+opencv     | 100ms avg | 38.0/81 digits | conf 0.85
+tesseract  | 11744ms avg | 30.5/81 digits | conf 0.94

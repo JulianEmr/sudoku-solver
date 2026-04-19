@@ -1,6 +1,0 @@
-names:
-  0: Sudoku grid
-nc: 1
-path: data
-train: train/images
-val: val/images

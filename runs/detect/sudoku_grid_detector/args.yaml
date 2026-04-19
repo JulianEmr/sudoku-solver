@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: data/dataset.yaml
+data: data/data.yaml
 epochs: 50
 time: null
 patience: 10
@@ -12,9 +12,9 @@ save_period: -1
 cache: false
 device: cpu
 workers: 8
-project: null
-name: sudoku_grid_detector3
-exist_ok: false
+project: runs/detect
+name: sudoku_grid_detector
+exist_ok: true
 pretrained: true
 optimizer: auto
 verbose: true
@@ -106,4 +106,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\julia\sudoku-solver\runs\detect\sudoku_grid_detector3
+save_dir: C:\Users\julia\sudoku-solver\runs\detect\runs\detect\sudoku_grid_detector

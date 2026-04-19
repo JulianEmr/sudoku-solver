@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['sudoku']
+
+roboflow:
+  workspace: pete-mksb1
+  project: sudoku-vision
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pete-mksb1/sudoku-vision/dataset/2
